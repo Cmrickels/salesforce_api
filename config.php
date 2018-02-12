@@ -3,4 +3,4 @@ define("CLIENT_ID", "3MVG9CEn_O3jvv0w4g9C9mYcTsWWloYl.nn.Hgo0k_KovQu3m7AUpsMmePD
 define("CLIENT_SECRET", "5212375649251407778");
 define("REDIRECT_URI", "https://sf.com/rebound.php");
 define("LOGIN_URI", "https://login.salesforce.com");
-define("SITE_URL", "https://sf.com/");
+define("SITE_URL", "https://sf.com/"); // https://sitename.com/

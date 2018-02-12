@@ -10,6 +10,9 @@
     }
 ?>
 <?php getHead() ?>
+<div style="width:100%;padding:30px;border:3px solid black;">
+    Before Integrating, be sure to set the client secret, client id, redirect uri, and site url constants accordingly within config.php
+</div>
 <h2> Sales Force API Connection App</h2>
 <form method="POST" action="">
     <input type="submit" value="integrate" name="integrate"/>
