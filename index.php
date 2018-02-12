@@ -5,26 +5,16 @@
     require_once 'template.php';
     if(isset($_POST['integrate'])){
         $auth = new Auth(CLIENT_ID, CLIENT_SECRET, REDIRECT_URI, LOGIN_URI);
-        $response = $auth->authorize();
+        $auth->authorize();
+        $that = $tasks;
     }
 ?>
 <?php getHead() ?>
 <h2> Sales Force API Connection App</h2>
-<p>
-    <?php if(session_id() != ''){
-       echo $_SESSION['access_token'];
-    }?>
-</p>
 <form method="POST" action="">
-
-    <input type="submit" value="integrate" name="integrate"/> <span>show title here if they are integrated!</span>
+    <input type="submit" value="integrate" name="integrate"/>
 </form>
-<table>
-    <thead>
-
-    </thead>
-    <tbody>
-
-    </tbody>
-</table>
+<?php if(isset($_SESSION['access_token'])){ ?>
+    <a href="crud_dash.php">You are integrated. Go to CRUD command center</a>
+<?php } ?>
 <?php getFooter() ?>
