@@ -1,33 +1,30 @@
 <?php session_start(); ?>
-<!doctype html>
-<html class="no-js" lang="">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title></title>
-        <meta name="description" content="Sales force connection app">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+<?php
+    require_once 'auth.php';
+    require_once 'config.php';
+    require_once 'template.php';
+    if(isset($_POST['integrate'])){
+        $auth = new Auth(CLIENT_ID, CLIENT_SECRET, REDIRECT_URI, LOGIN_URI);
+        $response = $auth->authorize();
+    }
+?>
+<?php getHead() ?>
+<h2> Sales Force API Connection App</h2>
+<p>
+    <?php if(session_id() != ''){
+       echo $_SESSION['access_token'];
+    }?>
+</p>
+<form method="POST" action="">
 
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    </head>
-    <body>
-        <h2> Sales Force API Connection App</h2>
-        <input type="button" value="integrate" id="integrate-button"/> <span>show title here if they are integrated!</span>
-        <table>
-            <thead>
+    <input type="submit" value="integrate" name="integrate"/> <span>show title here if they are integrated!</span>
+</form>
+<table>
+    <thead>
 
-            </thead>
-            <tbody>
+    </thead>
+    <tbody>
 
-            </tbody>
-        </table>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-        <script>
-            $('document').ready(function(){
-               $('#integrate-button').click(function(){
-                    window.href = "https://login.salesforce.com/services/oauth2/token";
-               });
-            });
-        </script>
-    </body>
-</html>
+    </tbody>
+</table>
+<?php getFooter() ?>
