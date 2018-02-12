@@ -26,13 +26,17 @@ getHead()?>
         table-layout: fixed;
         width: 100%;
         border-collapse: collapse;
-        border: 3px solid purple;
+        border: 3px solid black;
     }
     #all-purpose-table thead, #all-purpose-table td{
         border:2px solid black;
         padding:10px;
     }
 </style>
+<div style="width:100%;padding:30px;border:3px solid black;">
+    After Integration, you can do three basic CRUD functions that cover two of salesforce's objects which are Task and Account.<br>
+    After you create an account, the id will be displayed below for you to use when updating thus account
+</div>
 <?php if(!empty($alert)){ echo "<h4>Account with id: ".$alert['id']." was successfully created</h4>"; }?>
 <form action="" method="get">
     <p>Get Tasks between two dates</p>
@@ -44,7 +48,7 @@ getHead()?>
     <p>Add account</p>
     <label for="name">Name</label>
     <input type="text" name="name" required>
-    <input type="submit" value="Get Tasks" name="accounts-submit">
+    <input type="submit" value="Create Account" name="accounts-submit">
 </form>
 <form action="" method="get">
     <p>Update account</p>
@@ -56,7 +60,7 @@ getHead()?>
     <input type="text" name="city" required>
     <label for="website">Website</label>
     <input type="text" name="website" required>
-    <input type="submit" value="Get Tasks" name="accounts-edit-submit">
+    <input type="submit" value="Update Account" name="accounts-edit-submit">
 </form>
 
 <?php if(isset($tasks)){ ?>

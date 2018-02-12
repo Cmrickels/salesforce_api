@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ff01d378-85e7-403e-883c-7e8f482a919d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Crud.php" afterPath="$PROJECT_DIR$/Crud.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.php" afterPath="$PROJECT_DIR$/config.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/crud_dash.php" afterPath="$PROJECT_DIR$/crud_dash.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -52,7 +50,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Crud.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Crud.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Crud.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="173">
@@ -94,22 +92,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="crud_dash.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="crud_dash.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/crud_dash.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="236">
-              <caret line="55" column="44" lean-forward="false" selection-start-line="55" selection-start-column="44" selection-end-line="55" selection-end-column="44" />
+            <state relative-caret-position="330">
+              <caret line="37" column="5" lean-forward="false" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
               <folding>
-                <marker date="1518467761786" expanded="true" signature="771:1043" ph="..." />
-                <marker date="1518467761786" expanded="true" signature="796:922" ph="{...}" />
-                <marker date="1518467761786" expanded="true" signature="974:1035" ph="{...}" />
-                <marker date="1518467761786" expanded="true" signature="1179:1388" ph="..." />
-                <marker date="1518467761786" expanded="true" signature="1418:1596" ph="..." />
-                <marker date="1518467761786" expanded="true" signature="1626:2065" ph="..." />
-                <marker date="1518467761786" expanded="true" signature="2125:2325" ph="..." />
-                <marker date="1518467761786" expanded="true" signature="2137:2234" ph="..." />
-                <marker date="1518467761786" expanded="true" signature="2246:2296" ph="..." />
-                <marker date="1518467761786" expanded="true" signature="2246:2325" ph="..." />
+                <element signature="e#1049#1104#0#HTML" expanded="true" />
+                <marker date="1518468344994" expanded="true" signature="771:1042" ph="..." />
+                <marker date="1518468344994" expanded="true" signature="796:921" ph="{...}" />
+                <marker date="1518468344994" expanded="true" signature="973:1034" ph="{...}" />
+                <marker date="1518468344994" expanded="true" signature="1485:1694" ph="..." />
+                <marker date="1518468344994" expanded="true" signature="1724:1907" ph="..." />
+                <marker date="1518468344994" expanded="true" signature="1937:2381" ph="..." />
+                <marker date="1518468344994" expanded="true" signature="2441:2641" ph="..." />
+                <marker date="1518468344994" expanded="true" signature="2453:2550" ph="..." />
+                <marker date="1518468344994" expanded="true" signature="2562:2612" ph="..." />
+                <marker date="1518468344994" expanded="true" signature="2562:2641" ph="..." />
               </folding>
             </state>
           </provider>
@@ -299,12 +298,12 @@
       <option name="presentableId" value="Default" />
       <updated>1518285873028</updated>
       <workItem from="1518285875111" duration="10767000" />
-      <workItem from="1518382031948" duration="22579000" />
+      <workItem from="1518382031948" duration="22949000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33346000" />
+    <option name="totallyTimeSpent" value="33716000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="6" />
@@ -317,9 +316,9 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32914045" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32914045" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39937106" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39937106" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -505,25 +504,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/crud_dash.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="55" column="44" lean-forward="false" selection-start-line="55" selection-start-column="44" selection-end-line="55" selection-end-column="44" />
-          <folding>
-            <marker date="1518467761786" expanded="true" signature="771:1043" ph="..." />
-            <marker date="1518467761786" expanded="true" signature="796:922" ph="{...}" />
-            <marker date="1518467761786" expanded="true" signature="974:1035" ph="{...}" />
-            <marker date="1518467761786" expanded="true" signature="1179:1388" ph="..." />
-            <marker date="1518467761786" expanded="true" signature="1418:1596" ph="..." />
-            <marker date="1518467761786" expanded="true" signature="1626:2065" ph="..." />
-            <marker date="1518467761786" expanded="true" signature="2125:2325" ph="..." />
-            <marker date="1518467761786" expanded="true" signature="2137:2234" ph="..." />
-            <marker date="1518467761786" expanded="true" signature="2246:2296" ph="..." />
-            <marker date="1518467761786" expanded="true" signature="2246:2325" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Crud.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="173">
@@ -536,6 +516,26 @@
             <marker date="1518467037973" expanded="true" signature="461:582" ph="SELECT Id, S... Task" />
             <marker date="1518467037973" expanded="true" signature="461:583" ph="SELECT Id, S... Task" />
             <marker date="1518467037973" expanded="true" signature="461:609" ph="SELECT Title... Task" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crud_dash.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="37" column="5" lean-forward="false" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+          <folding>
+            <element signature="e#1049#1104#0#HTML" expanded="true" />
+            <marker date="1518468344994" expanded="true" signature="771:1042" ph="..." />
+            <marker date="1518468344994" expanded="true" signature="796:921" ph="{...}" />
+            <marker date="1518468344994" expanded="true" signature="973:1034" ph="{...}" />
+            <marker date="1518468344994" expanded="true" signature="1485:1694" ph="..." />
+            <marker date="1518468344994" expanded="true" signature="1724:1907" ph="..." />
+            <marker date="1518468344994" expanded="true" signature="1937:2381" ph="..." />
+            <marker date="1518468344994" expanded="true" signature="2441:2641" ph="..." />
+            <marker date="1518468344994" expanded="true" signature="2453:2550" ph="..." />
+            <marker date="1518468344994" expanded="true" signature="2562:2612" ph="..." />
+            <marker date="1518468344994" expanded="true" signature="2562:2641" ph="..." />
           </folding>
         </state>
       </provider>
